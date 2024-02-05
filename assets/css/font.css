@@ -1,0 +1,189 @@
+@font-face {
+    font-family: 'Pretendard';
+    font-weight: 900;
+    font-display: swap;
+    src: url('../font/woff2-subset/Pretendard-Black.subset.woff2') format('woff2'), url('../font/woff-subset/Pretendard-Black.subset.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    font-weight: 800;
+    font-display: swap;
+    src: url('../font/woff2-subset/Pretendard-ExtraBold.subset.woff2') format('woff2'), url('../font/woff-subset/Pretendard-ExtraBold.subset.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    font-weight: 700;
+    font-display: swap;
+    src: url('../font/woff2-subset/Pretendard-Bold.subset.woff2') format('woff2'), url('../font/woff-subset/Pretendard-Bold.subset.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    font-weight: 600;
+    font-display: swap;
+    src: url('../font/woff2-subset/Pretendard-SemiBold.subset.woff2') format('woff2'), url('../font/woff-subset/Pretendard-SemiBold.subset.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    font-weight: 500;
+    font-display: swap;
+    src: url('../font/woff2-subset/Pretendard-Medium.subset.woff2') format('woff2'), url('../font/woff-subset/Pretendard-Medium.subset.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    font-weight: 400;
+    font-display: swap;
+    src: url('../font/woff2-subset/Pretendard-Regular.subset.woff2') format('woff2'), url('../font/woff-subset/Pretendard-Regular.subset.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    font-weight: 300;
+    font-display: swap;
+    src: url('../font/woff2-subset/Pretendard-Light.subset.woff2') format('woff2'), url('../font/woff-subset/Pretendard-Light.subset.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    font-weight: 200;
+    font-display: swap;
+    src: url('../font/woff2-subset/Pretendard-ExtraLight.subset.woff2') format('woff2'), url('../font/woff-subset/Pretendard-ExtraLight.subset.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    font-weight: 100;
+    font-display: swap;
+    src: url('../font/woff2-subset/Pretendard-Thin.subset.woff2') format('woff2'), url('../font/woff-subset/Pretendard-Thin.subset.woff') format('woff');
+}
+
+html,
+body {
+    font-family: 'Pretendard,"Malgun Gothic",sans-serif';
+    font-size: 10px;
+}
+
+h2,
+.h2 {
+    font-size: 2.4rem;
+    font-weight: 300;
+    line-height: 120%;
+}
+@media (min-width: 992px) {
+    h2,
+    .h2 {
+        font-size: 3.2rem;
+    }
+}
+
+h3,
+.h3 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 120%;
+}
+@media (min-width: 992px) {
+    h3,
+    .h3 {
+        font-size: 2.4rem;
+    }
+}
+
+h4,
+.h4 {
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.text-desc1 {
+    font-size: 1.4rem;
+    font-weight: 300;
+    line-height: 150%;
+}
+
+.text-desc2 {
+    font-size: 1.4rem;
+    font-weight: 300;
+    line-height: 150%;
+}
+
+.text-desc3 {
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 150%;
+}
+.text-gradi {
+    background: linear-gradient(to right, var(--primary01), var(--primary02));
+    color: transparent;
+    -webkit-background-clip: text;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+@media (min-width: 992px) {
+    .text-desc1 {
+        font-size: 2rem;
+    }
+
+    .text-desc2 {
+        font-size: 1.6rem;
+    }
+
+    .text-gradi {
+        font-size: 1.4rem;
+    }
+}
+
+/* 텍스트 컬러 */
+.text-white {
+    color: var(--white);
+}
+.text-gray-200 {
+    color: var(--zinc-200);
+}
+.text-gray-400 {
+    color: var(--zinc-400);
+}
+.text-gray-500 {
+    color: var(--zinc-500);
+}
+
+/* 텍스트 사이즈 */
+.fs-14 {
+    font-size: 1.4rem;
+}
+.fs-24 {
+    font-size: 2.4rem;
+}
+
+/* 텍스트 굵기 */
+
+.fw-200 {
+    font-weight: 200;
+}
+.fw-300 {
+    font-weight: 300;
+}
+.fw-400 {
+    font-weight: 400;
+}
+.fw-500 {
+    font-weight: 500;
+}
+.fw-600 {
+    font-weight: 600;
+}
+.fw-700 {
+    font-weight: 700;
+}
+.fw-800 {
+    font-weight: 800;
+}
+.fw-900 {
+    font-weight: 900;
+}
